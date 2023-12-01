@@ -1,16 +1,31 @@
+/*
+setting diplay to flex means 
+1) our element behaves like a block level element and 
+2) its children behave according to flexbox model
+justify-content is just how space is distributed 
+padding is just space between content
+*/
 nav {
     display: flex;
     justify-content: space-between;
     background-color: grey; 
-    padding: 10px;
+    padding: 25px 25px 2px 5px;
 }
 
+/*
+First notice Descendent Selector: 
+This selects all a's nested in a nav tag
+The rest is straightforward
+*/
 nav a  {
     color: white;
     text-decoration: none;
     padding: 8px;
 }
 
+/*
+This just changes things when hovering
+*/
 nav a:hover {
     border-style: solid;
     background-color: black;
