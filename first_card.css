@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+}
+
+header h1 {
+    color: white;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 175px;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    cursor: pointer;
+
+}
+
+section :hover {
+    background-color: black;
+    color: white;
+}
+
+
+section div p {
+    border-top: solid;
+}
+
+
+
+footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+}
+
+footer h1 {
+    color: white;
+}
