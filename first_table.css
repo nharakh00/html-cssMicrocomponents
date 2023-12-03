@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 175px;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+table {
+    height: 100px;
+    width: 100%;
+}
+
+
+table,
+td {
+  border: 1px solid #333;
+  background-color:#effbe3;
+  width: 200px;
+}
+
+thead,
+tfoot {
+  background-color:#507529;
+  color: #d6eebb;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 175px;
+    
+}
